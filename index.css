@@ -1,0 +1,327 @@
+@import url(https://fonts.googleapis.com/css?family=Chocolate+Classical+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Signika:300,regular,500,600,700);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+header {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+    /* position: relative; */
+}
+.divtext{
+    margin: 5px;
+    margin-left: 550px;
+}
+
+
+.eltunel{
+    text-align:right;
+    font-family: "Caveat",sans-serif;
+    color: brown;
+    margin-right: 180px;
+    font-size: 35px;
+
+}
+
+.buscador{
+    width: 200px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 5px;
+}
+
+a{
+    margin: 70px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(202, 171, 92) ;
+    justify-content: space-between;
+    font-family: "signika",sans-serif;
+}
+nav{
+    background-color:  rgb(202, 171, 92)  ;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.portada{
+    background-image: url(img/portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1330px;
+    height: 300px;
+}
+.text{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 45px;
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+.text2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -30px; 
+    padding-top: 40px;
+    font-style: italic;
+}
+
+.reco{
+    padding: 50px;
+    color: rgb(150, 34, 34);
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "chocolate classical sans",sans-serif;
+}
+.libros{
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    
+}
+.titulo1{
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+.autor1{
+    color: gray;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 57px;
+}
+.mas1{
+    color: white;
+    background-color: rgb(150, 34, 34);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.libro2{
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.titulo2{
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+.autor2{
+    color: gray;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 57px;
+}
+.mas2{
+    color: white;
+    background-color: rgb(150, 34, 34);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.libro3{
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.titulo3{
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+}
+.autor3{
+    color: gray;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 57px;
+}
+.mas3{
+    color: white;
+    background-color: rgb(150, 34, 34);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.libro4{
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.titulo4{
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+.autor4{
+    color: gray;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 57px;
+}
+.mas4{
+    color: white;
+    background-color: rgb(150, 34, 34);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.libros2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titulo5{
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+.autor{
+    color: gray;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 57px;
+}
+.precio{
+    display: flex;
+    color: rgb(231, 179, 46)  ;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+.comprar{
+    display: flex;
+    color: white;
+    background-color: rgb(150, 34, 34);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: -24px;
+}
+.text3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.Conocenos{
+    /* padding: 50px; */
+    color: rgb(150, 34, 34);
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "chocolate classical sans",sans-serif;
+}
+.¡{
+    color: rgb(150, 34, 34);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "chocolate classical sans",sans-serif;
+}
+.libreria{
+    display: flex;
+}
+footer {
+    background-color: rgb(182, 154, 118);
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pie {
+    width: 33%;
+}
+
+.separacion {
+    margin-top: -20px;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.espacio {
+    color: white;
+}
+
+.ubi {
+    display: flex;
+}
+
+.txto1 {
+    padding-top: 20px;
+    color: white;
+    padding-left: 5px;
+}
+
+.tel {
+    display: flex;
+}
+
+.txto2 {
+    color: white;
+    padding-left: 5px;
+}
+
+.mail {
+    display: flex;
+}
+
+.txto3 {
+    color: white;
+    padding-left: 5px;
+}
+
+.redes {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.derechos{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    padding-top: -20px;
+}
+.pie2 {
+    color: white;
+    width: 33%;
+}
+
+.pie3 {
+    color: white;
+    width: 33%;
+}
+
+.boton3 {
+    background-color: rgb(158, 46, 40);
+    margin-left: -5px;
+}
